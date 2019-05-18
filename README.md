@@ -17,7 +17,7 @@ The organizers release a portion of this data as training data and the rest are 
 ### Generate Input from Raw Data
 Instruction for downloading the SpaceNet data can be found on their [website](https://spacenetchallenge.github.io/). The authors provide a set of utilities to convert the raw images to a format that semantic segmentation models can take as input. The utilities are in this [repo](https://github.com/SpaceNetChallenge/utilities). Most of the functionalities you will need are in the `python` folder. Please read their instructions on the repo's [README](https://github.com/SpaceNetChallenge/utilities) to understand all the tools and parameters available. After using `python/createDataSpaceNet.py` from the utilities repo to process the raw data, the input image and its label look like the following:
 
-![Example of input image and its label](./visuals/sample_input_pair.png)
+![alt text] (https://github.com/yangsiyu007/SpaceNetExploration/blob/master/visuals/sample_input_pair.png)
 
 
 
